@@ -1,0 +1,11 @@
+ExamID,MethodID,ExamC
+1,1,"we utilized quizzes to ask about fundamental programming concepts to measure the effectiveness of our teaching approach in delivering essential programming concepts to the students. The quizzes, administered at the end of each section, allowed us to assess the students understanding comprehensively."
+2,2,"Precourse and postcourse programming knowledge was evaluated in two parts, 
+namely, the student knowledge questionnaire on programming understand 
+ing (e.g., Are you familiar with file I/O and debugging tools in MATLAB? A. Not familiar at 
+all B. Somewhat unfamiliar C. Average D. Quite familiar E. Very familiar), and the 
+programming knowledge test [e.g., Which function is used to randomly generate a 3 ~ 2 
+matrix in MATLAB? A. rand(3, 2) B. randn(3, 2) C. eye(3, 2) D. ones(3, 2)]. "
+3,4," Participants completed a closed-book post-evaluation. The evaluation was designed 
+to evaluate participantsf comprehension and implementation of Object 
+Oriented Programming and it has four questions "

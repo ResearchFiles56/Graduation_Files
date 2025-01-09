@@ -1,0 +1,8 @@
+SurveyID,MethodID,QuestionnaireD,QuestionnaireN,InterviewD,InterviewN
+1,1,Both groups question: About class Experimental group question: About ChatGPT,85,NULL,NULL
+2,2," Precourse and postcourse programming knowledge was evaluated in two 
+parts, namely, the student knowledge questionnaire on programming understand 
+ing (e.g., Are you familiar with file I/O and debugging tools in MATLAB? A. Not familiar at 
+all B. Somewhat unfamiliar C. Average D. Quite familiar E. Very familiar) ",55,NULL,NULL
+3,3,"Given a survey to gather their feedback and perceptions of the learning experience. The survey included questions about engagement, satisfaction, and perceived learning outcomes.",40,NULL,NULL
+4,4,"Fifty-five post-surveys were collected, including participantsf demographic information, computer science background, usage, perceptions of ChatGPT, suggestions on how to use ChatGPT, etc. The questions for ChatGPT perception were designed as Likert scale questions ranging from 1? 7 (1 represents Strongly Disagree and 7 represents Strongly Agree)",55,NULL,NULL

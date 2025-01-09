@@ -1,0 +1,12 @@
+StudentsID,MethodID,StudentD,ExperimentalGroupN,ExperimentalGroupD,ControlGroupN,ControlGroupD
+1,1,Students voluntarily participated in the experiment and provided their data,49,"experienced the instruc tional methodology, where students interacted with the ChatGPT-assisted platform to learn introductory programming concepts.",36,"adhered to the conventional teaching model, with a teacher employing slides and lectures to convey the concepts."
+2,2,"The participants were 55 graduate students, including 13 doctoral students and 42 
+master students. Students were arranged into 27 groups (two or three students per group). ",13,"ChatGPT intelligent feedback was offered tostudent groups. Due to 
+policy restriction, the research team used ChatGPT to generate textual feedback, generated a 
+video based on the ChatGPT feedback text, and used a virtual character to present the 
+feedback content ",14,"The instructor provided manual, text-based feedback that included five 
+dimen sions: correctness, readability, efficiency, maintainability, and compliance "
+3,3,Computer Science students,NULL,"Students could support each other, but the chosen study peer was 
+ChatGPT.",NULL,"Assigned to work 
+in pairs without the assistance of Artificial Intelligence tools."
+4,4,"Students who were taking a 3-credit CS1 course at Blind University, a private research-intensive university in North America.",23,"Participants could use ChatGPT and other online resources (e.g., Google, course slides) while working on the UML diagram and programming.",33,"Participants were not allowed to useChatGPT but could use any other online resources (e.g., Google, course slides) for the UML diagram and programming tasks."
