@@ -5,7 +5,7 @@ import sqlite3
 conn = sqlite3.connect("LLM_Education.db")
 cursor = conn.cursor()
 
-with open("Papers.csv", 'r', encoding='utf-8') as file:
+with open("./data/Papers.csv", 'r', encoding='utf-8') as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO Papers ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -13,7 +13,7 @@ with open("Papers.csv", 'r', encoding='utf-8') as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("LLMInfo.csv", 'r', encoding='utf-8') as file:
+with open("./data/LLMInfo.csv", 'r', encoding='utf-8') as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO LLMInfo ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -21,7 +21,7 @@ with open("LLMInfo.csv", 'r', encoding='utf-8') as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("ObjectResult.csv", 'r', encoding='utf-8', errors="ignore") as file:
+with open("./data/ObjectResult.csv", 'r', encoding='utf-8', errors="ignore") as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO ObjectResult ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -29,7 +29,7 @@ with open("ObjectResult.csv", 'r', encoding='utf-8', errors="ignore") as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("Methods.csv", 'r', encoding='utf-8', errors="ignore") as file:
+with open("./data/Methods.csv", 'r', encoding='utf-8', errors="ignore") as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO Methods ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -37,7 +37,7 @@ with open("Methods.csv", 'r', encoding='utf-8', errors="ignore") as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("Assignments.csv", 'r', encoding='utf-8', errors="ignore") as file:
+with open("./data/Assignments.csv", 'r', encoding='utf-8', errors="ignore") as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO Assignments ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -45,7 +45,7 @@ with open("Assignments.csv", 'r', encoding='utf-8', errors="ignore") as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("Classes.csv", 'r', encoding='utf-8', errors="ignore") as file:
+with open("./data/Classes.csv", 'r', encoding='utf-8', errors="ignore") as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO Classes ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -53,7 +53,7 @@ with open("Classes.csv", 'r', encoding='utf-8', errors="ignore") as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("Exams.csv", 'r', encoding='utf-8', errors="ignore") as file:
+with open("./data/Exams.csv", 'r', encoding='utf-8', errors="ignore") as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO Exams ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -61,7 +61,7 @@ with open("Exams.csv", 'r', encoding='utf-8', errors="ignore") as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("Surveys.csv", 'r', encoding='utf-8', errors="ignore") as file:
+with open("./data/Surveys.csv", 'r', encoding='utf-8', errors="ignore") as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO Surveys ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
@@ -69,7 +69,7 @@ with open("Surveys.csv", 'r', encoding='utf-8', errors="ignore") as file:
     for data in reader:
         cursor.execute(query, data)
 
-with open("Students.csv", 'r', encoding='utf-8', errors="ignore") as file:
+with open("./data/Students.csv", 'r', encoding='utf-8', errors="ignore") as file:
     reader = csv.reader(file)
     columns = next(reader)
     query = f'INSERT INTO Students ({", ".join(columns)}) VALUES ({", ".join(["?"]*len(columns))})'
